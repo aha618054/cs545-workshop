@@ -3,14 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import User from "./user";
+// import User from "./user";
+import Lab11 from "./Lab11";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
     // <App />
-    <User />
+    // <User />
+    <Lab11 />
 );
 
 // If you want to start measuring performance in your app, pass a function
